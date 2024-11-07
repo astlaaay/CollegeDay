@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Milestone Celebration</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            background-image: url('c:/Users/asus/Downloads/backgroundImage.jpg');
+            background-size: cover;
+            font-family: Arial, sans-serif;
+            color: #fff; 
+            padding: 0;
+        }
+
+        header {
+            text-align: center;
+            padding: 20px;
+            background-color: rgba(0, 51, 102, 0.9); 
+            border-radius: 10px; 
+            animation: fadeIn 1s ease-in; 
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        h1 {
+            transition: transform 0.3s; 
+        }
+
+        h1:hover {
+            transform: scale(1.1); 
+        }
+
+        .intro {
+            text-align: center;
+            padding: 20px;
+            background-color: rgba(50, 50, 50, 0.9); 
+            border-radius: 10px; 
+            animation: slideIn 1s ease-in; 
+        }
+
+        @keyframes slideIn {
+            from { transform: translateY(-20px); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
+
+        .timeline {
+            background-color: rgba(30, 30, 30, 0.9); 
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+            align-items: center;
+            margin: 20px auto; 
+            max-width: 1200px; 
+        }
+
+        .timeline-container {
+            display: flex;
+            flex-direction: row; 
+            flex-wrap: wrap; 
+            justify-content: center; 
+            gap: 20px; 
+        }
+
+        .timeline-item {
+            padding: 15px;
+            border: 2px solid #ccc; 
+            border-radius: 10px;
+            transition: background-color 0.3s, transform 0.3s;
+            background-color: rgba(70, 130, 180, 0.9); 
+            width: 200px; 
+            text-align: center;
+        }
+
+        .timeline-item:hover {
+            background-color: rgba(100, 149, 237, 0.8); 
+            transform: scale(1.05);
+        }
+
+        .timeline-item img, .timeline-item video {
+            border-radius: 10px;
+            transition: transform 0.3s;
+            width: 100%;
+            height: auto; 
+        }
+
+        .timeline-item img:hover, .timeline-item video:hover {
+            transform: scale(1.1);
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: rgba(0, 51, 102, 0.9); 
+            position: relative;
+            bottom: 0;
+            width: 100%;
+            margin-top: 20px;
+            border-radius: 10px; 
+        }
+    </style>
+</head>
+<body>
+  
+    <header>
+        <h1>Milestone Celebration</h1>
+    </header>
+
+    <main>
+        <section class="intro">
+            <h2>Welcome to my Diary</h2>
+            <p>Revisit the moments of my thrilling day at college through a collection of photos and narratives. Come along as I share the standout experiences, obstacles, and enjoyable times from this memorable adventure.</p>
+        </section>
+
+        <section class="timeline"> 
+            <h2>Diary</h2> 
+            <div class="timeline-container">
+                <div class="timeline-item">
+                    <img src="images/2cd6b68f-a67d-411b-9c70-7dd836bf1349.jpg" alt="Event 1">
+                    <p>Foundation Day honors a school's legacy through celebrations, performances, and community engagement.</p>
+                </div>
+
+                <div class="timeline-item">
+                    <img src="images/71b70e27-9fe3-49ad-99c5-0f6ff1b5e9ed.jpg" alt="Event 2">
+                    <p>Foundation Day celebrates a school's history and achievements with speeches, performances, and awards, fostering pride and unity among the community.</p>
+                </div>
+                
+                <div class="timeline-item">
+                    <img src="images/23940bac-405a-4fc9-897f-55ff59bc239b.jpg" alt="Bingo Card Day">
+                    <p>Foundation Day is like a birthday party for the school, filled with cheers, performances, and a whole lot of pride! 🎉
+                    </p>
+                </div>
+
+                <div class="timeline-item">
+                    <img src="images/6a57a77a-f7aa-4f00-9c4d-64a15b60b9ad.jpg" alt="Evening Event">
+                    <p>Foundation Day celebrates a school's founding with events that unite students, faculty, and the community.
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; <strong>My incredible experience during Foundation Week.</strong></p>
+    </footer>
+
+</body>
+</html>
